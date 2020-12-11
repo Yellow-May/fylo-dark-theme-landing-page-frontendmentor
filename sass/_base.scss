@@ -1,0 +1,53 @@
+// Front-end Style Guide
+// Layout
+$Mobile: 375px;
+$Desktop: 1440px;
+
+// Colors
+/// Primary
+$Dark-Blue-intro-and-email-sign-up-background: hsl(217, 28%, 15%);
+$Dark-Blue-main-background: hsl(218, 28%, 13%);
+$Dark-Blue-footer-background: hsl(216, 53%, 9%);
+$Dark-Blue-testimonials-background: hsl(219, 30%, 18%);
+
+/// Accent
+$Cyan: hsl(176, 68%, 64%);
+$Blue: hsl(198, 60%, 50%);
+$Light-Red-error: hsl(0, 100%, 63%);
+
+/// Neutral
+$White: hsl(0, 0%, 100%);
+
+// Typography
+/// Body Copy
+$Font-size: 14px;
+
+/// Headings, Call-to-actions, Header Navigation
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
+$Family-Raleway: "Raleway", serif;
+
+/// Body
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+$Family-Open-Sans: "Open Sans", serif;
+
+// Font Weights
+$Weights-I: 400;
+$Weights-II: 700;
+
+// Reset
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
